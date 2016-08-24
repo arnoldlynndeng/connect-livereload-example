@@ -1,0 +1,22 @@
+{
+  "name": "reload",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "connect-livereload": "^0.5.4",
+    "grunt": "~0.4.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-connect": "^1.0.2",
+    "grunt-contrib-watch": "^1.0.0",
+    "gruntfile-gtx": "^0.3.0",
+    "require-directory": "^2.1.1",
+    "serve-static": "~1.10.0",
+    "serve-index": "~1.7.2"
+  }
+}
