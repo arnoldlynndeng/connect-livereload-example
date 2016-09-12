@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<style type="text/css">
+  		.boll{
+		    position: absolute;
+		    left: 200px;
+		    top: 100px;
+		    color:#2095F0;
+		    cursor:pointer;
+		    z-index: 9999;
+		    font-size: 16px;
+		    width: 50px;
+		    height: 50px;
+		    background: red;
+		    border-radius: 100%;
+		    text-align: center;
+		    vertical-align: middle;
+		    display: inline-block;
+		    line-height: 35px;
+			}
+			.boll-1 {
+				left: 500px;
+				top: 500px;
+				width: 50px;
+				height: 50px;
+				line-height: 50px;
+				font-weight: bold;
+				background-color: #2095F0;
+				color: red;
+			}
+  	</style>
+  </head>
+  <body>
+    <i id="boll1" class="boll"></i>
+    <i id="boll2" class="boll boll-1">0</i>
+    <button id="js-start">start</button>
+  </body>
+	<script type="text/javascript" src="js/lib/jquery.min.js"></script>
+  <script type="text/javascript" src="js/test.js"></script>
+</html>

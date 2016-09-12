@@ -1,4 +1,4 @@
-var lrPort = 35729;
+var lrPort = 35722;
 // 使用connect-livereload模块，生成一个与LiveReload脚本
 // <script src="http://127.0.0.1:35729/livereload.js?snipver=1" type="text/javascript"></script>
 var lrSnippet = require('connect-livereload')({ port: lrPort });

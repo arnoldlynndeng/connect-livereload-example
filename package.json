@@ -15,8 +15,10 @@
     "grunt-contrib-connect": "^1.0.2",
     "grunt-contrib-watch": "^1.0.0",
     "gruntfile-gtx": "^0.3.0",
+    "jquery": "^3.1.0",
     "require-directory": "^2.1.1",
-    "serve-static": "~1.10.0",
-    "serve-index": "~1.7.2"
+    "rollup": "^0.34.13",
+    "serve-index": "~1.7.2",
+    "serve-static": "~1.10.0"
   }
 }
